@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">My Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href=""
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Nam Anh</h1>
+          <h2 class="text-white">Incoming Software Engineer</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="./images/dev.svg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">Who is Nam Anh?</h1>
+          <br />
+          <p>
+            Anh was born in Vietnam and currently lives in Saigon. 
+          <p>
+            Anh is currently pursuing a degree in Computer Science at Fulbright University Vietnam and an incoming Software Engineer.  
+            Anh's logic-driven nature and insatiable appetite for solving puzzles are what fueled her love for coding.
+          </p>
+          <p>
+            Anh has experience in developing both <b class="text-warning"> front-end </b> (HTML, CSS) and <b class="text-warning"> back-end </b> (REST, SQL database) for stateless and dynamic site with state-of-the-art frameworks like Spring.  
+          </p>  
+            Anh has great attention to detail and problem solving and good time management and ability to work efficiently and effectively with people from all levels and backgrounds.
+          </p>
+          <br />
+          <!-- <button class="btn btn-outline-warning">Learn More</button> -->
+          <a href="https://google.com" class="btn btn-outline-warning">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="./images/e_portfolio.svg"
+                class="card-img-top"
+                alt="..."
+                style="height: 13rem;"
+              />
+              <div class="card-body">
+                <h5 class="card-title">e-Portfolio</h5>
+                <p class="card-text">
+                  <ul>
+                    <li>  Created an e-portfolio with front-end languages HTML, CSS and 
+                    employed Bootstrap to boost efficiency.
+                    </li>
+            
+                    <li>Technology used: HTML, CSS, Bootstrap</li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+            </div>
+        </div>  
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/postcard.svg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">e-Postcard</h5>
+              <p class="card-text">
+                <ul>
+                  <li> Created an electronic postcard with front-end languages HTML and CSS.
+                  </li>
+          
+                  <li>Technology used: HTML, CSS</li>
+                </ul>
+               
+              </p>
+              <a href="https://anh-nguyen-98.github.io/for-dad/" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/register_course.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Course Registration Web App</h5>
+              <p class="card-text">
+                <ul>
+                  <li>Designed, implemented, and tested RESTful APIs for user & content management system, course registration system
+                  </li>
+                  <li>Technology used: Spring Framework, SQL H2 database, Postman, Java</li>
+                </ul>
+        
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/encrypt - decrypt.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Encryption - Decryption Software</h5>
+              <p class="card-text">
+                <ul>
+                  <li> Designed, implemented and tested software for encrypting 
+                    and decrypting messages to improve security of information transmitted over the lines.
+                  </li>
+                  <li>Technology used: Python, Tkinter, NumPy, SciPy, Hill n-cipher algorithm
+                  </li>
+                </ul>
+               
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/game.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Word Search Game: Boggle </h5>
+              <p class="card-text">
+                <ul>
+                  <li> Designed software to play a computer version of the word-search board game: Boggle.
+                  </li>
+                  <li> Technology used: Java, Recursion, Backtracking   
+                  </li>
+                </ul>
+               
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/image_segmentation.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Image Segmentation </h5>
+              <p class="card-text">
+                <ul>
+                  <li> Built an image segmentation program to partition a given
+                    scene into a set of similar regions, with the purpose of 
+                    extracting semantic information from the raw image data.
+                  </li>
+                  <li> Technology used:Java, Disjoint forest tree  
+                  </li>
+                </ul>
+                
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mb-5">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="./images/data_compression.svg"
+                class="card-img-top"
+                alt="..."
+                style="height: 13rem;"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Compression Software</h5>
+                <p class="card-text">
+                  <ul>
+                    <li> Compressed and decompressed input data by implementing Huffman coding algorithm
+                    </li>
+                    <li> Technology used: Java, Huffman Tree
+                    </li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mb-5">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="./images/movie_recommendation.svg"
+                class="card-img-top"
+                alt="..."
+                style="height: 13rem;"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Movie Recommendation System </h5>
+                <p class="card-text">
+                  <ul>
+                    <li> Built a simple movie recommendation system that allows users 
+                      to input scores from 1-5 of some movies and receive 
+                      recommendations for similar items and from other similar-taste users. 
+                    </li>
+                    <li>Accuracy: 93% </li>
+                    <li>Technology used:
+                       Collaborative filtering - matrix factorization
+                      </li>
+                  </ul>
+               
+                </p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mb-5">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="./images/outfit_recommendation.svg"
+                class="card-img-top"
+                alt="..."
+                style="height: 13rem;"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Outfit Recommendation System </h5>
+                <p class="card-text">
+                  <ul>
+                    <li> Built a simple outfit recommendation system that allows users to input any JPG or JPEG photo of clothing items and receive recommendations for visually similar items. 
+                    </li>
+                    <li>Accuracy: 95% </li>
+                    <li>Technology used: Python, NumPy, SciPy, Pandas, KNN
+                      </li>
+                  </ul>
+                   
+                </p>
+                <a href="#" class="btn btn-warning">See Project</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Connect with me on</h1>
+
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" href="#">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <!-- <h3 class="m-0 pt-2 text-white">LinkedIn</h3> -->
+                <!-- <form action="http://google.com">
+                    <button type="submit" value="Go to Google" />
+                </form> -->
+                <a href="https://www.linkedin.com/in/anh-nguyen-0a68a01a7/" target="_blank" class="m-0 pt-2 text-white">LinkedIn</a>
+            </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <!-- <h3 class="m-0 pt-2 text-white">Github</h3> -->
+                <a href="https://github.com/anh-nguyen-98" target="_blank" class="m-0 pt-2 text-white">Github</a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <!-- <h3 class="m-0 pt-2 text-white">Youtube</h3> -->
+                <a href="https://www.facebook.com/profile.php?id=100054971895713" target="_blank" class="m-0 pt-2 text-white">Facebook</a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-facebook fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <a href="mailto: anh.nguyen.190005@student.fulbright.edu.vn" target="_blank" class="m-0 pt-2 text-white">Email</a>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2020 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Nam Anh</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
